@@ -10,7 +10,15 @@
 
 import SpriteKit
 
+let TickLengthLevelOne = NSTimeInterval(600)    // slowest speed at which the shapes will travel
+
 class GameScene: SKScene {
+    
+    // closure which takes non parameters and return no parameters.
+    var tick:(() -> ())?
+    
+    var tickLengthMillis = TickLengthLevelOne
+    var lastTick:NSDate?    // last time we experienced a tick
     
     required init(coder aDecoder: NSCoder!) {
         fatalError("NSCoder not supported")
@@ -32,5 +40,24 @@ class GameScene: SKScene {
    
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
+        
+        if  lastTick == nil {   // paused state
+            return
+        }
+        // recover time passed since last execution of update
+        var timePassed = lastTick!.timeIntervalSinceNow * -1000.0 // to get a positive millisecond value
+        if timePassed > tickLengthMillis { // if enough time has elapsed repost a tick
+            lastTick = NSDate()
+            tick?()
+        }
+    }
+    
+    // accessor methods to let external classes stop and start the ticking process
+    func startTicking() {
+        lastTick = NSDate()
+    }
+    
+    func stopTicking() {
+        lastTick = nil
     }
 }

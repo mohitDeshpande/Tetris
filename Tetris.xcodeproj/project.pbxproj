@@ -52,7 +52,7 @@
 		E40700E11A287AF200AE8B0F /* gameboard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameboard@2x.png"; sourceTree = "<group>"; };
 		E40700E21A287AF200AE8B0F /* whitebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitebg.png; sourceTree = "<group>"; };
 		E40700E31A287AF200AE8B0F /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
-		E40700EA1A28812100AE8B0F /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Array2D.swift; path = Tetris/Array2D.swift; sourceTree = "<group>"; };
+		E40700EA1A28812100AE8B0F /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		E4DDE9511A25AD4F00A983FA /* Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DDE9551A25AD4F00A983FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4DDE9561A25AD4F00A983FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,7 +99,6 @@
 		E4DDE9481A25AD4F00A983FA = {
 			isa = PBXGroup;
 			children = (
-				E40700EA1A28812100AE8B0F /* Array2D.swift */,
 				E4DDE9531A25AD4F00A983FA /* Tetris */,
 				E4DDE96D1A25AD4F00A983FA /* TetrisTests */,
 				E4DDE9521A25AD4F00A983FA /* Products */,
@@ -118,6 +117,7 @@
 		E4DDE9531A25AD4F00A983FA /* Tetris */ = {
 			isa = PBXGroup;
 			children = (
+				E40700EA1A28812100AE8B0F /* Array2D.swift */,
 				E4DDE9561A25AD4F00A983FA /* AppDelegate.swift */,
 				E4DDE95A1A25AD4F00A983FA /* GameScene.swift */,
 				E4DDE95C1A25AD4F00A983FA /* GameViewController.swift */,
