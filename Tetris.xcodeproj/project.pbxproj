@@ -20,6 +20,7 @@
 		E40700E81A287AF200AE8B0F /* whitebg.png in Resources */ = {isa = PBXBuildFile; fileRef = E40700E21A287AF200AE8B0F /* whitebg.png */; };
 		E40700E91A287AF200AE8B0F /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E40700E31A287AF200AE8B0F /* whitebg@2x.png */; };
 		E40700EB1A28812100AE8B0F /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40700EA1A28812100AE8B0F /* Array2D.swift */; };
+		E40700ED1A289F3A00AE8B0F /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = E40700EC1A289F3A00AE8B0F /* Block.swift */; };
 		E4DDE9571A25AD4F00A983FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DDE9561A25AD4F00A983FA /* AppDelegate.swift */; };
 		E4DDE95B1A25AD4F00A983FA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DDE95A1A25AD4F00A983FA /* GameScene.swift */; };
 		E4DDE95D1A25AD4F00A983FA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DDE95C1A25AD4F00A983FA /* GameViewController.swift */; };
@@ -53,6 +54,7 @@
 		E40700E21A287AF200AE8B0F /* whitebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitebg.png; sourceTree = "<group>"; };
 		E40700E31A287AF200AE8B0F /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
 		E40700EA1A28812100AE8B0F /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		E40700EC1A289F3A00AE8B0F /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		E4DDE9511A25AD4F00A983FA /* Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DDE9551A25AD4F00A983FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4DDE9561A25AD4F00A983FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 		E4DDE9531A25AD4F00A983FA /* Tetris */ = {
 			isa = PBXGroup;
 			children = (
+				E40700EC1A289F3A00AE8B0F /* Block.swift */,
 				E40700EA1A28812100AE8B0F /* Array2D.swift */,
 				E4DDE9561A25AD4F00A983FA /* AppDelegate.swift */,
 				E4DDE95A1A25AD4F00A983FA /* GameScene.swift */,
@@ -276,6 +279,7 @@
 			files = (
 				E4DDE95B1A25AD4F00A983FA /* GameScene.swift in Sources */,
 				E40700EB1A28812100AE8B0F /* Array2D.swift in Sources */,
+				E40700ED1A289F3A00AE8B0F /* Block.swift in Sources */,
 				E4DDE95D1A25AD4F00A983FA /* GameViewController.swift in Sources */,
 				E4DDE9571A25AD4F00A983FA /* AppDelegate.swift in Sources */,
 			);
